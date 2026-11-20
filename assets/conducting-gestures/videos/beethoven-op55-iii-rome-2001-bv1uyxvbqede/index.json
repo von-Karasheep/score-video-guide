@@ -1,0 +1,44 @@
+{
+  "title": "贝多芬《第三交响曲“英雄”》第三乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1UYXVBQEde/",
+  "timing_basis": "Performance-derived measure alignment. Within-bar subdivisions are estimated from the source and score.",
+  "performed_bars": 642,
+  "source_seconds": [
+    1927.0,
+    2279.5
+  ],
+  "version": "v2",
+  "movie_sha256": "dc57b709ffcbd7675fb6fa6d30237e21f3bcf59877416bb92ea6aed41ba0eb84",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-1": "f6726d38d39f822f072fcf9e48cf6b403cab94b0447037f3cc05f81570d02af7",
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "fed32a0c3b4fa2a2533f5b2c38cb4a9678840cd6a600374edc2b2239da26c97d",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "3/4",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 8.632581,
+      "duration": 4.0,
+      "file": "3-4_in-1.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 324.795688,
+      "duration": 2.315193,
+      "file": "2-2_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

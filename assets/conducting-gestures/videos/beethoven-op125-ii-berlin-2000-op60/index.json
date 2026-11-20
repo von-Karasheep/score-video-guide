@@ -1,0 +1,419 @@
+{
+  "title": "贝多芬《第九交响曲》第二乐章",
+  "recording": "阿巴多／柏林爱乐，2000-05-01，柏林",
+  "source": "https://www.bilibili.com/video/BV1gt421p7v1/",
+  "timing_basis": "同场实录对谱，以连续画面中的挥拍转折作时间参照，在参照之间按演奏调整局部拍长。",
+  "visible_landings": [
+    {
+      "measure": 26,
+      "xml": 26,
+      "beat": 1,
+      "source_seconds": 958.533333,
+      "output_seconds": 22.033333,
+      "shot": 5,
+      "xy": [
+        134.6,
+        54.2
+      ],
+      "prominence": 10.84
+    },
+    {
+      "measure": 27,
+      "xml": 27,
+      "beat": 1,
+      "source_seconds": 959.133333,
+      "output_seconds": 22.633333,
+      "shot": 5,
+      "xy": [
+        145.0,
+        86.8
+      ],
+      "prominence": 32.19
+    },
+    {
+      "measure": 28,
+      "xml": 28,
+      "beat": 1,
+      "source_seconds": 959.533333,
+      "output_seconds": 23.033333,
+      "shot": 5,
+      "xy": [
+        141.0,
+        86.6
+      ],
+      "prominence": 30.42
+    },
+    {
+      "measure": 29,
+      "xml": 29,
+      "beat": 1,
+      "source_seconds": 960.133333,
+      "output_seconds": 23.633333,
+      "shot": 5,
+      "xy": [
+        161.3,
+        36.6
+      ],
+      "prominence": 9.35
+    },
+    {
+      "measure": 30,
+      "xml": 30,
+      "beat": 1,
+      "source_seconds": 960.6,
+      "output_seconds": 24.1,
+      "shot": 5,
+      "xy": [
+        151.7,
+        34.3
+      ],
+      "prominence": 6.5
+    },
+    {
+      "measure": 32,
+      "xml": 32,
+      "beat": 1,
+      "source_seconds": 961.666667,
+      "output_seconds": 25.166667,
+      "shot": 5,
+      "xy": [
+        160.6,
+        62.8
+      ],
+      "prominence": 33.08
+    },
+    {
+      "measure": 34,
+      "xml": 34,
+      "beat": 1,
+      "source_seconds": 962.6,
+      "output_seconds": 26.1,
+      "shot": 5,
+      "xy": [
+        144.5,
+        53.1
+      ],
+      "prominence": 9.39
+    },
+    {
+      "measure": 138,
+      "xml": 138,
+      "beat": 1,
+      "source_seconds": 1016.9,
+      "output_seconds": 80.4,
+      "shot": 20,
+      "xy": [
+        82.2,
+        73.9
+      ],
+      "prominence": 46.14
+    },
+    {
+      "measure": 143,
+      "xml": 143,
+      "beat": 1,
+      "source_seconds": 1019.633333,
+      "output_seconds": 83.133333,
+      "shot": 20,
+      "xy": [
+        77.5,
+        62.9
+      ],
+      "prominence": 6.32
+    },
+    {
+      "measure": 146,
+      "xml": 146,
+      "beat": 1,
+      "source_seconds": 1021.5,
+      "output_seconds": 85.0,
+      "shot": 20,
+      "xy": [
+        79.1,
+        69.4
+      ],
+      "prominence": 14.12
+    },
+    {
+      "measure": 149,
+      "xml": 149,
+      "beat": 1,
+      "source_seconds": 1023.166667,
+      "output_seconds": 86.666667,
+      "shot": 20,
+      "xy": [
+        86.9,
+        88.7
+      ],
+      "prominence": 24.2
+    },
+    {
+      "measure": 150,
+      "xml": 150,
+      "beat": 1,
+      "source_seconds": 1023.5,
+      "output_seconds": 87.0,
+      "shot": 20,
+      "xy": [
+        79.4,
+        67.2
+      ],
+      "prominence": 6.95
+    },
+    {
+      "measure": 387,
+      "xml": 387,
+      "beat": 1,
+      "source_seconds": 1147.933333,
+      "output_seconds": 211.433333,
+      "shot": 56,
+      "xy": [
+        121.6,
+        63.6
+      ],
+      "prominence": 21.44
+    },
+    {
+      "measure": 391,
+      "xml": 391,
+      "beat": 1,
+      "source_seconds": 1149.866667,
+      "output_seconds": 213.366667,
+      "shot": 56,
+      "xy": [
+        114.1,
+        58.3
+      ],
+      "prominence": 31.75
+    },
+    {
+      "measure": 393,
+      "xml": 393,
+      "beat": 1,
+      "source_seconds": 1150.933333,
+      "output_seconds": 214.433333,
+      "shot": 56,
+      "xy": [
+        111.8,
+        53.8
+      ],
+      "prominence": 18.16
+    },
+    {
+      "measure": 396,
+      "xml": 396,
+      "beat": 1,
+      "source_seconds": 1152.333333,
+      "output_seconds": 215.833333,
+      "shot": 56,
+      "xy": [
+        111.6,
+        47.5
+      ],
+      "prominence": 23.73
+    },
+    {
+      "measure": 782,
+      "xml": 782,
+      "beat": 1,
+      "source_seconds": 1356.4,
+      "output_seconds": 419.9,
+      "shot": 112,
+      "xy": [
+        47.9,
+        63.0
+      ],
+      "prominence": 5.86
+    },
+    {
+      "measure": 785,
+      "xml": 785,
+      "beat": 1,
+      "source_seconds": 1357.866667,
+      "output_seconds": 421.366667,
+      "shot": 112,
+      "xy": [
+        37.3,
+        87.9
+      ],
+      "prominence": 11.26
+    },
+    {
+      "measure": 1027,
+      "xml": 1027,
+      "beat": 1,
+      "source_seconds": 1524.866667,
+      "output_seconds": 588.366667,
+      "shot": 153,
+      "xy": [
+        54.4,
+        91.6
+      ],
+      "prominence": 37.0
+    },
+    {
+      "measure": 1029,
+      "xml": 1029,
+      "beat": 1,
+      "source_seconds": 1525.866667,
+      "output_seconds": 589.366667,
+      "shot": 153,
+      "xy": [
+        60.8,
+        87.4
+      ],
+      "prominence": 33.15
+    },
+    {
+      "measure": 1500,
+      "xml": 1358,
+      "beat": 1,
+      "source_seconds": 1695.333333,
+      "output_seconds": 758.833333,
+      "shot": 199,
+      "xy": [
+        64.9,
+        91.5
+      ],
+      "prominence": 4.69
+    },
+    {
+      "measure": 1504,
+      "xml": 1362,
+      "beat": 1,
+      "source_seconds": 1697.333333,
+      "output_seconds": 760.833333,
+      "shot": 199,
+      "xy": [
+        59.6,
+        91.3
+      ],
+      "prominence": 30.77
+    },
+    {
+      "measure": 1507,
+      "xml": 1365,
+      "beat": 1,
+      "source_seconds": 1698.8,
+      "output_seconds": 762.3,
+      "shot": 199,
+      "xy": [
+        58.8,
+        91.4
+      ],
+      "prominence": 34.33
+    },
+    {
+      "measure": 1521,
+      "xml": 1379,
+      "beat": 1,
+      "source_seconds": 1706.066667,
+      "output_seconds": 769.566667,
+      "shot": 199,
+      "xy": [
+        63.1,
+        91.1
+      ],
+      "prominence": 15.27
+    },
+    {
+      "measure": 1522,
+      "xml": 1380,
+      "beat": 1,
+      "source_seconds": 1706.6,
+      "output_seconds": 770.1,
+      "shot": 199,
+      "xy": [
+        63.1,
+        91.3
+      ],
+      "prominence": 11.02
+    },
+    {
+      "measure": 1523,
+      "xml": 1381,
+      "beat": 1,
+      "source_seconds": 1707.133333,
+      "output_seconds": 770.633333,
+      "shot": 199,
+      "xy": [
+        63.0,
+        91.2
+      ],
+      "prominence": 12.07
+    },
+    {
+      "measure": 1532,
+      "xml": 1390,
+      "beat": 1,
+      "source_seconds": 1713.333333,
+      "output_seconds": 776.833333,
+      "shot": 201,
+      "xy": [
+        66.2,
+        79.4
+      ],
+      "prominence": 7.96
+    },
+    {
+      "measure": 1533,
+      "xml": 1391,
+      "beat": 1,
+      "source_seconds": 1714.0,
+      "output_seconds": 777.5,
+      "shot": 201,
+      "xy": [
+        52.8,
+        86.7
+      ],
+      "prominence": 18.06
+    },
+    {
+      "measure": 1535,
+      "xml": 1393,
+      "beat": 1,
+      "source_seconds": 1714.8,
+      "output_seconds": 778.3,
+      "shot": 201,
+      "xy": [
+        40.2,
+        79.0
+      ],
+      "prominence": 9.16
+    }
+  ],
+  "score_source": "https://github.com/iis-mctl/mctl-symphony-dataset/tree/main/symbolic_symphony_set/be2",
+  "version": "v2",
+  "movie_sha256": "04b835b6bbd418662f5ebd91ef7d755e19536711a995368a21c4cc968d2c9685",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-1": "f6726d38d39f822f072fcf9e48cf6b403cab94b0447037f3cc05f81570d02af7",
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "09154dc3f3b85315ca162f7299e474bad414985b25189a43ddadbb1467218db0",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "3/4",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 8.296,
+      "duration": 4.0,
+      "file": "3-4_in-1.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "2",
+      "pattern": "in-2",
+      "start": 425.878356,
+      "duration": 4.0,
+      "file": "2-2_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

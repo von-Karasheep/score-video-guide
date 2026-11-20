@@ -1,0 +1,4 @@
+interface:
+  display_name: "Score Video Guide"
+  short_description: "Complete score guides, practical sync, 4K videos and covers"
+  default_prompt: "Use $score-video-guide to study, create, or revise an evidence-based score-analysis video and one English cover design, delivered in 16:9 and 4:3 for all movements of the work, following the portable Bruckner/Firebird standard, local production, Desktop movie delivery, Nutstore archival, and immediate blocker reporting."

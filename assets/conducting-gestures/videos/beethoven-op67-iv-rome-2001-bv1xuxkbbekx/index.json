@@ -1,0 +1,52 @@
+{
+  "title": "贝多芬《第五交响曲“命运”》第四乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1xUXKBbEKx/",
+  "timing_basis": "Performed route matched to source audio, with visible gesture spot checks. Within-bar beat positions are estimated. III and IV share the same attacca edit point.",
+  "source_seconds": [
+    1503.3,
+    2128.633333333333
+  ],
+  "performed_score_slots": 530,
+  "version": "v2",
+  "movie_sha256": "1602f3322a8abc023a570c12fba0bc947655691b46dcd939d8a8cac178cda0ae",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-1": "f6726d38d39f822f072fcf9e48cf6b403cab94b0447037f3cc05f81570d02af7",
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "ec93680ac8388b2ce25236b87a83125ca01595f68db8f5074ed269aba864caf2",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "4/4",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 6.02,
+      "duration": 4.0,
+      "file": "4-4_in-2.mp4"
+    },
+    {
+      "meter": "3/4",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 334.34695,
+      "duration": 4.0,
+      "file": "3-4_in-1.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 575.055572,
+      "duration": 4.0,
+      "file": "2-2_in-1.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

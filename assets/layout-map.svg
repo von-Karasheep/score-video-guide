@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="3840" height="2160">
+<rect width="1920" height="1080" fill="#f3f3ef"/>
+<rect x="20" y="16" width="1880" height="92" fill="none" stroke="#397f75"/><text x="26" y="34" font-size="16" font-family="sans-serif">header</text>
+<rect x="20" y="118" width="1215" height="852" fill="none" stroke="#397f75"/><text x="26" y="136" font-size="16" font-family="sans-serif">score_panel</text>
+<rect x="230" y="265" width="970" height="685" fill="none" stroke="#397f75"/><text x="236" y="283" font-size="16" font-family="sans-serif">score_image</text>
+<rect x="1270" y="130" width="615" height="170" fill="none" stroke="#397f75"/><text x="1276" y="148" font-size="16" font-family="sans-serif">analysis</text>
+<rect x="1260" y="438" width="630" height="170" fill="none" stroke="#397f75"/><text x="1266" y="456" font-size="16" font-family="sans-serif">motif</text>
+<rect x="1270" y="618" width="615" height="26" fill="none" stroke="#397f75"/><text x="1276" y="636" font-size="16" font-family="sans-serif">listen</text>
+<rect x="42" y="916" width="198" height="38" fill="none" stroke="#397f75"/><text x="48" y="934" font-size="16" font-family="sans-serif">citation</text>
+<rect x="1320" y="654" width="500" height="281" fill="none" stroke="#397f75"/><text x="1326" y="672" font-size="16" font-family="sans-serif">performance</text>
+<rect x="32" y="980" width="1856" height="96" fill="none" stroke="#397f75"/><text x="38" y="998" font-size="16" font-family="sans-serif">timeline</text>
+<rect x="1260" y="308" width="630" height="116" fill="none" stroke="#397f75"/><text x="1266" y="326" font-size="16" font-family="sans-serif">tonality</text>
+<rect x="1320" y="950" width="565" height="28" fill="none" stroke="#397f75"/><text x="1326" y="968" font-size="16" font-family="sans-serif">performance_caption</text>
+<rect x="1310" y="27" width="270" height="49" fill="#4b879c"/><text x="1320" y="57" font-size="20" fill="white">A theme chip</text>
+<rect x="1600" y="27" width="270" height="49" fill="#a77a57"/><text x="1610" y="57" font-size="20" fill="white">B theme chip</text>
+</svg>

@@ -1,0 +1,132 @@
+{
+  "schema_version": 3,
+  "work": {
+    "composer": null,
+    "title": null,
+    "movement": null,
+    "scope": null
+  },
+  "recording": {
+    "source_path": null,
+    "source_url": null,
+    "performers": [],
+    "year": null,
+    "identity_evidence": [],
+    "codec": null,
+    "sample_rate": null,
+    "channels": null,
+    "verified_bit_depth": null,
+    "source_width": null,
+    "source_height": null,
+    "source_start": null,
+    "source_end": null,
+    "music_duration": null,
+    "native_lossless_provenance": "unverified",
+    "sha256": null,
+    "identity_method": "credible_event_and_release_information; no mandatory cross-upload audio/frame matching"
+  },
+  "score": {
+    "path": null,
+    "publisher": null,
+    "edition": null,
+    "isbn": null,
+    "ismn": null,
+    "full_score_obtained": false,
+    "instrumentation_verified": false,
+    "performance_edition_match": "unverified",
+    "source_url": null,
+    "sha256": null,
+    "excluded_sources": []
+  },
+  "timeline": {
+    "units": "seconds",
+    "default_display": "output_time",
+    "mapping": "unverified",
+    "intro_seconds": 6,
+    "segments": []
+  },
+  "data": {
+    "score_geometry": null,
+    "alignment": null,
+    "conducting_gestures": {"archive_version": null, "pattern_ids": [], "video_record": null},
+    "motives": null,
+    "sections": null,
+    "references": null
+  },
+  "style": {
+    "video_pixels": [
+      3840,
+      2160
+    ],
+    "default_fps": 30,
+    "body_font": "MiSans",
+    "cover_pixels": [
+      3840,
+      2160
+    ],
+    "cover_font": "Minion Pro",
+    "cover_language": "English",
+    "credit": null,
+    "credit_maker": null,
+    "credit_policy": "Credit the actual maker only; preserve earlier credits and add a dated revision line when revising another maker.",
+    "pip": true,
+    "pip_policy": "Use matching-performance footage when available; disable explicitly for audio-only sources.",
+    "cover_specs": {
+      "16:9": [
+        3840,
+        2160
+      ],
+      "4:3": [
+        3840,
+        2880
+      ]
+    },
+    "cover_scope": "one_shared_design_per_work_in_two_ratios"
+  },
+  "validation": {
+    "source_identity": "not_checked",
+    "score_identity": "not_checked",
+    "analysis_evidence": "not_checked",
+    "full_decode": "not_checked",
+    "pcm_comparison": "not_checked",
+    "sampled_score_sync": "not_checked",
+    "full_note_listening": "not_checked",
+    "visual_review": "not_checked",
+    "cross_movement_consistency": "not_applicable",
+    "desktop_readback": "not_checked",
+    "archive_readback": "not_checked"
+  },
+  "outputs": {
+    "video": null,
+    "cover": null,
+    "editable_project": null,
+    "work_chapter_txt": null,
+    "references": null,
+    "qa_report": null,
+    "covers": {
+      "16:9": null,
+      "4:3": null
+    }
+  },
+  "unresolved": [],
+  "status": "configured_not_started",
+  "skill": "score-video-guide",
+  "acceptance": {
+    "quality_target": "complete_score_guide",
+    "sync_target": "approximate_measure_sync",
+    "cursor_mode": "measure_linear",
+    "precise_note_sync_required": false,
+    "policy": "references/production-policy.md",
+    "blocking_issue_action": "report_difficulty_remedy_feasibility_and_wait_for_user"
+  },
+  "paths": {
+    "local_work_root": null,
+    "desktop_root": null,
+    "archive_root": null,
+    "relative_path_inventory": null,
+    "movie_destination": "desktop",
+    "engineering_destination": "nutstore",
+    "other_deliverables_destination": "nutstore",
+    "duplicate_cloud_movie": false
+  }
+}

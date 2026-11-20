@@ -1,0 +1,35 @@
+{
+  "title": "贝多芬《第五交响曲“命运”》第二乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1xUXKBbEKx/",
+  "timing_basis": "Performed route matched to source audio, with visible gesture spot checks. Within-bar beat positions are estimated. III and IV share the same attacca edit point.",
+  "source_seconds": [
+    446.1333333333333,
+    1011.9333333333333
+  ],
+  "performed_score_slots": 248,
+  "version": "v2",
+  "movie_sha256": "b7a6486305682d6195c1c9598e99bb8c85b6f490ff044af994e2a251ba85cc11",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-3": "73a9ce454843bfb425b2c8eaac8e46bb83b54d6f83bb8c846e2d3e101cf46bb1"
+  },
+  "clock_sha256": "fe8b632a32dc4377d33b7664d7f8190e2ca86a5bbfc6044e7f1301077599912e",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "3/8",
+      "grouping": "三拍",
+      "pattern": "in-3",
+      "start": 8.346424,
+      "duration": 4.0,
+      "file": "3-8_in-3.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

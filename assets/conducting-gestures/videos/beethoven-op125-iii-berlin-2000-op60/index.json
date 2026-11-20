@@ -1,0 +1,160 @@
+{
+  "title": "贝多芬《第九交响曲》第三乐章",
+  "recording": "阿巴多／柏林爱乐，2000-05-01，柏林",
+  "source": "https://www.bilibili.com/video/BV1gt421p7v1/",
+  "timing_basis": "同场实录对谱，以连续画面中的挥拍转折作时间参照，在参照之间按演奏调整局部拍长。",
+  "visible_landings": [
+    {
+      "measure": 19,
+      "xml": 19,
+      "beat": 1,
+      "source_seconds": 1844.4,
+      "output_seconds": 107.4,
+      "shot": 16,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 29,
+      "xml": 29,
+      "beat": 1,
+      "source_seconds": 1889.666667,
+      "output_seconds": 152.666667,
+      "shot": 22,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 50,
+      "xml": 50,
+      "beat": 2,
+      "source_seconds": 1974.833333,
+      "output_seconds": 237.833333,
+      "shot": 35,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 60,
+      "xml": 60,
+      "beat": 1,
+      "source_seconds": 2023.766667,
+      "output_seconds": 286.766667,
+      "shot": 42,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 63,
+      "xml": 63,
+      "beat": 2,
+      "source_seconds": 2040.733333,
+      "output_seconds": 303.733333,
+      "shot": 46,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 97,
+      "xml": 97,
+      "beat": 2,
+      "source_seconds": 2175.266667,
+      "output_seconds": 438.266667,
+      "shot": 77,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 107,
+      "xml": 107,
+      "beat": 1,
+      "source_seconds": 2225.4,
+      "output_seconds": 488.4,
+      "shot": 86,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 123,
+      "xml": 123,
+      "beat": 2,
+      "source_seconds": 2312.466667,
+      "output_seconds": 575.466667,
+      "shot": 104,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 130,
+      "xml": 130,
+      "beat": 4,
+      "source_seconds": 2353.066667,
+      "output_seconds": 616.066667,
+      "shot": 108,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 151,
+      "xml": 151,
+      "beat": 1,
+      "source_seconds": 2470.933333,
+      "output_seconds": 733.933333,
+      "shot": 122,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    }
+  ],
+  "score_source": "https://github.com/iis-mctl/mctl-symphony-dataset/tree/main/symbolic_symphony_set/be3",
+  "version": "v2",
+  "movie_sha256": "d6a3c34fd39bd799a8485615f2f7400a6a1aebc4806b26e1b22c576868e37b6e",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-3": "73a9ce454843bfb425b2c8eaac8e46bb83b54d6f83bb8c846e2d3e101cf46bb1",
+    "in-4": "be470790036509d2de78cc45956526ddde0b3636c9f0bb6c67acfa3218bc9d93"
+  },
+  "clock_sha256": "72605e42687a5ca9821d328fbd91feaf99c54c7b10dfa75191aa2164720148f8",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "4/4",
+      "grouping": "4",
+      "pattern": "in-4",
+      "start": 8.796,
+      "duration": 5.708,
+      "file": "4-4_in-4.mp4"
+    },
+    {
+      "meter": "3/4",
+      "grouping": "3",
+      "pattern": "in-3",
+      "start": 139.75873,
+      "duration": 4.0,
+      "file": "3-4_in-3.mp4"
+    },
+    {
+      "meter": "12/8",
+      "grouping": "3+3+3+3",
+      "pattern": "in-4",
+      "start": 447.545573,
+      "duration": 5.016803,
+      "file": "12-8_in-4.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

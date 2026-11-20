@@ -1,0 +1,35 @@
+{
+  "title": "Beethoven Op. 68 · V",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, 14 February 2001",
+  "source_url": "https://www.bilibili.com/video/BV17jXVBeEXR/",
+  "source_seconds": [
+    1864.0666666666666,
+    2373.4
+  ],
+  "timing_basis": "The performed measures are aligned to the original audio. Beat positions inside the bar are estimates.",
+  "layout_revision": "Notation card with Minion Pro Italic and enlarged written beat strip",
+  "version": "v2",
+  "movie_sha256": "0dd757b6a7c833674928da9030f55b147cf67b50486a8c4a8c0f8a075db6b7a7",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "f6ed86e99f881b4b61d54f0374836579840035e6dfa036b15187cdab90125e56",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "6/8",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 6.0,
+      "duration": 4.0,
+      "file": "6-8_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

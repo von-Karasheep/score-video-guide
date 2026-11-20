@@ -1,0 +1,115 @@
+{
+  "title": "贝多芬《第九交响曲》第四乐章",
+  "recording": "阿巴多／柏林爱乐，2000-05-01，柏林",
+  "source": "https://www.bilibili.com/video/BV1gt421p7v1/",
+  "timing_basis": "Printed score mapped to the performance clock. Shot checks are contextual samples, not observed timestamps for every beat.",
+  "source_clock": "source seconds = output seconds + 2523 during the performance",
+  "reviewed_shot_windows_source_seconds": [
+    2531.4,
+    2710.6,
+    3243.8,
+    3533.9,
+    3851.2
+  ],
+  "text_only_output_seconds": {
+    "prepare": [
+      6.0,
+      9.048
+    ],
+    "release": [
+      1329.765,
+      1332.5
+    ]
+  },
+  "original_ass_sha256": "e85fb1eaa61e4c5a76f14d6b0e0b0ee1ed445a1af97a37b81be6757a14abd344",
+  "version": "v1",
+  "movie_sha256": "56c92f5c1bd0557718868a688a28ec820e1fcd02cf50c77a342d0e5681b54f39",
+  "renderer_sha256": "a6ba2a8ab9dedbc8cd793d55dd01bf3ebf32491225c4ac776146da5a470d0399",
+  "patterns": {
+    "in-1": "9ac474bda9ebd51295f8bd45e36da0a5360ded9e11b503cc80944bc5311524f6",
+    "in-2": "48f40ae58a17afdad7f7e5edd68be3592815ac29afd6e331e74ddb5cbdbec95e",
+    "in-3": "aaa2f288f09e8acd0122443e3a41983b4d2171204f3078dbb68e3c09f96c8b6c",
+    "in-4": "eba356d7f391429bd5577eb2f9edbe2f593c1f3a89cfe8e6b53f7d35239dc0f4"
+  },
+  "clock_sha256": "4b879457f9743ce668a8afed7b06e8557f7cdd2a124cdebc8e099943a269a79f",
+  "widget_crop": [
+    1636,
+    260,
+    788,
+    216
+  ],
+  "examples": [
+    {
+      "meter": "3/4",
+      "grouping": "3",
+      "pattern": "in-1",
+      "start": 9.37767,
+      "duration": 4.0,
+      "file": "3-4_in-1.mp4"
+    },
+    {
+      "meter": "3/4",
+      "grouping": "1+1+1",
+      "pattern": "in-3",
+      "start": 15.980747,
+      "duration": 4.0,
+      "file": "3-4_in-3.mp4"
+    },
+    {
+      "meter": "2/4",
+      "grouping": "1+1",
+      "pattern": "in-2",
+      "start": 47.898989,
+      "duration": 4.0,
+      "file": "2-4_in-2.mp4"
+    },
+    {
+      "meter": "4/4",
+      "grouping": "1+1+1+1",
+      "pattern": "in-4",
+      "start": 104.017045,
+      "duration": 4.36,
+      "file": "4-4_in-4.mp4"
+    },
+    {
+      "meter": "6/8",
+      "grouping": "3+3",
+      "pattern": "in-2",
+      "start": 548.304685,
+      "duration": 4.0,
+      "file": "6-8_in-2.mp4"
+    },
+    {
+      "meter": "3/2",
+      "grouping": "1+1+1",
+      "pattern": "in-3",
+      "start": 776.898019,
+      "duration": 4.0,
+      "file": "3-2_in-3.mp4"
+    },
+    {
+      "meter": "6/4",
+      "grouping": "3+3",
+      "pattern": "in-2",
+      "start": 968.284685,
+      "duration": 4.0,
+      "file": "6-4_in-2.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "1+1",
+      "pattern": "in-2",
+      "start": 1119.964685,
+      "duration": 4.0,
+      "file": "2-2_in-2.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "2",
+      "pattern": "in-1",
+      "start": 1253.197391,
+      "duration": 4.0,
+      "file": "2-2_in-1.mp4"
+    }
+  ]
+}

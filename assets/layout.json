@@ -1,0 +1,156 @@
+{
+  "version": "2026-11-11.8",
+  "canvas": [
+    3840,
+    2160
+  ],
+  "logical_canvas": [
+    1920,
+    1080
+  ],
+  "scale": 2,
+  "fps": 30,
+  "colors": {
+    "background": "#f3f3ef",
+    "text": "#243a34",
+    "secondary": "#71817a",
+    "cursor": "#397f75",
+    "divider": "#cbd5ce"
+  },
+  "fonts": {
+    "regular": "MiSans-Regular",
+    "medium": "MiSans-Medium"
+  },
+  "regions": {
+    "header": [
+      20,
+      16,
+      1880,
+      92
+    ],
+    "score_panel": [
+      20,
+      118,
+      1215,
+      852
+    ],
+    "score_image": [
+      230,
+      265,
+      970,
+      685
+    ],
+    "analysis": [
+      1270,
+      130,
+      615,
+      170
+    ],
+    "motif": [
+      1260,
+      438,
+      630,
+      170
+    ],
+    "listen": [
+      1270,
+      618,
+      615,
+      26
+    ],
+    "citation": [
+      42,
+      916,
+      198,
+      38
+    ],
+    "performance": [
+      1320,
+      654,
+      500,
+      281
+    ],
+    "gesture": [
+      1270,
+      944,
+      615,
+      28
+    ],
+    "timeline": [
+      32,
+      980,
+      1856,
+      96
+    ],
+    "tonality": [
+      1260,
+      308,
+      630,
+      116
+    ],
+    "performance_caption": [
+      1320,
+      950,
+      565,
+      28
+    ]
+  },
+  "type_sizes_logical": {
+    "work": 40,
+    "movement": 28,
+    "recording": 18,
+    "analysis_heading": 30,
+    "body": 25,
+    "motif_heading": 27,
+    "metadata": 20,
+    "staff_label": 18,
+    "timeline": 18,
+    "citation": 18,
+    "gesture": 20
+  },
+  "intro_seconds": {
+    "identity": 3,
+    "form": 3
+  },
+  "timeline_basis": "output",
+  "cursor_width_logical": 2.5,
+  "inactive_motif_opacity": 0.35,
+  "theme_colors": {
+    "A": "#4b879c",
+    "B": "#a77a57",
+    "C": "#8275a1",
+    "D": "#738b6a"
+  },
+  "caption_min_gap_logical": 12,
+  "theme_legend": {
+    "chips": [
+      [
+        1310,
+        27,
+        270,
+        49
+      ],
+      [
+        1600,
+        27,
+        270,
+        49
+      ]
+    ],
+    "inactive_hue_fraction": 0.27,
+    "active_foreground": "white",
+    "text_size_logical": 20,
+    "activation": "checked motif occurrence only"
+  },
+  "score_page_metadata": "left score only; no duplicate under performance",
+  "gesture_region_policy": "Leave unused when the performance-caption row is present; do not overlay both.",
+  "left_beat_display": {
+    "required_for_future_videos": true,
+    "orientation": "vertical allowed",
+    "purpose": "Current beat position, additional to the meter label",
+    "preserve_existing_information": true,
+    "placement": "Measure vacant space in the actual left information panel; keep tempo, measure, source/page, staff labels and notation explanations readable.",
+    "timing": "Supported musical beat map; distinguish principal beats and subdivisions; no cycling before onset",
+    "existing_movies": "Do not modify"
+  }
+}

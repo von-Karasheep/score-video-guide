@@ -1,0 +1,256 @@
+{
+  "title": "贝多芬《第九交响曲》第一乐章",
+  "recording": "阿巴多／柏林爱乐，2000-05-01，柏林",
+  "source": "https://www.bilibili.com/video/BV1gt421p7v1/",
+  "timing_basis": "同场实录对谱，以连续画面中的挥拍转折作时间参照，在参照之间按演奏调整局部拍长。",
+  "visible_landings": [
+    {
+      "measure": 96,
+      "xml": 96,
+      "beat": 2,
+      "source_seconds": 219.866667,
+      "output_seconds": 158.366667,
+      "shot": 30,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 169,
+      "xml": 169,
+      "beat": 2,
+      "source_seconds": 336.8,
+      "output_seconds": 275.3,
+      "shot": 55,
+      "xy": [
+        79.6,
+        52.3
+      ],
+      "method": "wrist + score",
+      "prominence": 10.72
+    },
+    {
+      "measure": 170,
+      "xml": 170,
+      "beat": 1,
+      "source_seconds": 337.6,
+      "output_seconds": 276.1,
+      "shot": 55,
+      "xy": [
+        77.1,
+        53.6
+      ],
+      "method": "wrist + score",
+      "prominence": 10.26
+    },
+    {
+      "measure": 170,
+      "xml": 170,
+      "beat": 2,
+      "source_seconds": 338.4,
+      "output_seconds": 276.9,
+      "shot": 55,
+      "xy": [
+        79.1,
+        55.5
+      ],
+      "method": "wrist + score",
+      "prominence": 14.28
+    },
+    {
+      "measure": 174,
+      "xml": 174,
+      "beat": 1,
+      "source_seconds": 343.8,
+      "output_seconds": 282.3,
+      "shot": 55,
+      "xy": [
+        75.9,
+        71.2
+      ],
+      "method": "wrist + score",
+      "prominence": 20.6
+    },
+    {
+      "measure": 175,
+      "xml": 175,
+      "beat": 1,
+      "source_seconds": 345.266667,
+      "output_seconds": 283.766667,
+      "shot": 55,
+      "xy": [
+        74.9,
+        60.8
+      ],
+      "method": "wrist + score",
+      "prominence": 9.54
+    },
+    {
+      "measure": 177,
+      "xml": 177,
+      "beat": 2,
+      "source_seconds": 348.666667,
+      "output_seconds": 287.166667,
+      "shot": 55,
+      "xy": [
+        91.5,
+        72.0
+      ],
+      "method": "wrist + score",
+      "prominence": 6.06
+    },
+    {
+      "measure": 178,
+      "xml": 178,
+      "beat": 2,
+      "source_seconds": 350.266667,
+      "output_seconds": 288.766667,
+      "shot": 55,
+      "xy": [
+        62.3,
+        87.4
+      ],
+      "method": "wrist + score",
+      "prominence": 19.5
+    },
+    {
+      "measure": 232,
+      "xml": 232,
+      "beat": 2,
+      "source_seconds": 433.466667,
+      "output_seconds": 371.966667,
+      "shot": 80,
+      "xy": [
+        169.5,
+        41.2
+      ],
+      "method": "wrist + score",
+      "prominence": 7.97
+    },
+    {
+      "measure": 233,
+      "xml": 233,
+      "beat": 1,
+      "source_seconds": 434.133333,
+      "output_seconds": 372.633333,
+      "shot": 80,
+      "xy": [
+        172.5,
+        38.3
+      ],
+      "method": "wrist + score",
+      "prominence": 4.28
+    },
+    {
+      "measure": 258,
+      "xml": 258,
+      "beat": 2,
+      "source_seconds": 471.966667,
+      "output_seconds": 410.466667,
+      "shot": 88,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 286,
+      "xml": 286,
+      "beat": 1,
+      "source_seconds": 512.933333,
+      "output_seconds": 451.433333,
+      "shot": 98,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 356,
+      "xml": 356,
+      "beat": 1,
+      "source_seconds": 619.266667,
+      "output_seconds": 557.766667,
+      "shot": 120,
+      "xy": [
+        40.8,
+        91.7
+      ],
+      "method": "wrist + score",
+      "prominence": 32.13
+    },
+    {
+      "measure": 356,
+      "xml": 356,
+      "beat": 2,
+      "source_seconds": 619.933333,
+      "output_seconds": 558.433333,
+      "shot": 120,
+      "xy": [
+        53.0,
+        90.9
+      ],
+      "method": "wrist + score",
+      "prominence": 25.37
+    },
+    {
+      "measure": 358,
+      "xml": 358,
+      "beat": 1,
+      "source_seconds": 622.333333,
+      "output_seconds": 560.833333,
+      "shot": 120,
+      "xy": [
+        59.2,
+        83.3
+      ],
+      "method": "wrist + score",
+      "prominence": 19.01
+    },
+    {
+      "measure": 409,
+      "xml": 409,
+      "beat": 2,
+      "source_seconds": 704.266667,
+      "output_seconds": 642.766667,
+      "shot": 143,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    },
+    {
+      "measure": 536,
+      "xml": 536,
+      "beat": 1,
+      "source_seconds": 908.533333,
+      "output_seconds": 847.033333,
+      "shot": 190,
+      "xy": null,
+      "method": "visual frame review",
+      "prominence": 0.0
+    }
+  ],
+  "score_source": "https://github.com/iis-mctl/mctl-symphony-dataset/tree/main/symbolic_symphony_set/be1",
+  "version": "v2",
+  "movie_sha256": "b3f3b330da92b504622591943680d3776e4a6cddf7305fcafa68720584e9bb9c",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "489ff9c1fd5ae5962d7f5eb48f170f9c899e28be48729ddee3ddef4a10e8d7a1",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "2/4",
+      "grouping": "2",
+      "pattern": "in-2",
+      "start": 8.736,
+      "duration": 4.0,
+      "file": "2-4_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

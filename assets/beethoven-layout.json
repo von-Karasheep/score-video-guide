@@ -1,0 +1,63 @@
+{
+  "profile": "Beethoven score guides, Op. 60 reference",
+  "logical_canvas": [1920, 1080],
+  "output_canvas": [3840, 2160],
+  "fps": 30,
+  "rect_format": "x, y, width, height in logical pixels from top left",
+  "rects": {
+    "score_panel": [24, 118, 1210, 844],
+    "score_system_fit": [331, 254, 884, 685],
+    "baton": [818, 126, 394, 116],
+    "notation_callout_single_mark": [44, 585, 173, 117],
+    "tonality": [1262, 303, 631, 120],
+    "motif_excerpt": [1262, 438, 631, 174],
+    "performance_picture": [1329, 656, 492, 277]
+  },
+  "header": {
+    "title_anchor": [38, 44],
+    "movement_anchor_op60": [581, 45],
+    "recording_line_y": 84,
+    "divider_y": 108,
+    "legend_y_range": [32, 75]
+  },
+  "analysis": {
+    "x": 1262,
+    "form_y": 143,
+    "headline_y": 189,
+    "explanation_y": 239,
+    "listening_cue_y": 634
+  },
+  "timeline": {
+    "x_range": [30, 1890],
+    "form_label_y": 978,
+    "bracket_y": 990,
+    "progress_top_y": 998,
+    "progress_height": 9,
+    "theme_y": 1022,
+    "measure_range_y": 1045,
+    "output_start_time_y": 1066,
+    "future_section_colour": "round(0.20 * section_channel + 0.80 * 250) per RGB channel"
+  },
+  "palette": {
+    "background": "#F1F3EE",
+    "paper": "#FFFFFF",
+    "text": "#203830",
+    "secondary_text": "#536A60",
+    "divider": "#CCD6CE",
+    "cursor_and_listening_cue": "#246B5A",
+    "tonality_fill": "#E8EEE8",
+    "notation_ink": "#A34C37",
+    "notation_fill": "#FAF2ED",
+    "notation_border": "#D4A18F",
+    "theme_a": "#4B879C",
+    "theme_b": "#A77A57",
+    "auxiliary_violet": "#77688F",
+    "coda_green": "#627E69"
+  },
+  "fonts": {
+    "chinese": ["MiSans Regular", "MiSans Medium", "MiSans Semibold"],
+    "roman": "Minion Pro",
+    "tempo": "Minion Pro Italic"
+  },
+  "work_cover": {"scope": "one shared design for all movements", "sizes": {"16:9": [3840, 2160], "4:3": [3840, 2880]}}
+}

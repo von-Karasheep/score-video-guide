@@ -1,0 +1,151 @@
+{
+  "inspection_date": "2026-11-10",
+  "scope": "Existing encoded-frame images and archived records read; no new whole-film listening or precision certification",
+  "frames": [
+    {
+      "packaged_path": "assets/reference-frames/bruckner8-I-contact.jpg",
+      "historical_workspace_relative_path": "预习视频/工程文件/布鲁克纳第八交响曲/主题识别重制版/正式版检查/第1乐章-抽帧核对.jpg",
+      "sha256": "8c367142ca56816aeca7704bee79af979844c505da2f50d3c0ba2e62138bed3c"
+    },
+    {
+      "packaged_path": "assets/reference-frames/firebird-0300.jpg",
+      "historical_workspace_relative_path": "预习视频/工程文件/火鸟-阿巴多柏林1994-codex/渲染/全片校核/frames/0300.jpg",
+      "sha256": "574c6b14854518fb3694a04150379123204cf8b82d5733547d2b2bcba0fdeae9"
+    }
+  ],
+  "bruckner_movement_I": {
+    "movement": 1,
+    "path": "音乐会预习/预习视频/最终成片/布鲁克纳第八交响曲/01-布鲁克纳第八交响曲-第一乐章-卡拉扬1988-4K.mp4",
+    "bytes": 979109844,
+    "sha256": "cb4252f9c29528508b38095bb170d439e6df54f3be9085ea5f0f0195528be50a",
+    "video": {
+      "codec": "hevc",
+      "width": 3840,
+      "height": 2160,
+      "rate": "30",
+      "frames": 31350,
+      "time_base": "1/15360",
+      "packets": 31350
+    },
+    "audio": {
+      "codec": "alac",
+      "rate": 48000,
+      "channels": 2,
+      "format": "s32p"
+    },
+    "duration": 1045.0,
+    "full_decode": {
+      "returncode": 0,
+      "stderr": ""
+    },
+    "music_pcm": {
+      "source": {
+        "samples_per_channel": 48720000,
+        "bytes": 292320000,
+        "sha256": "2be2683ab32ecafb39342e009c38ddbc3f99450b8037b191170d531ad2c1f568"
+      },
+      "output": {
+        "samples_per_channel": 48720000,
+        "bytes": 292320000,
+        "sha256": "2be2683ab32ecafb39342e009c38ddbc3f99450b8037b191170d531ad2c1f568"
+      },
+      "equal": true
+    },
+    "alignment_scope": "Score geometry and register-sensitive audio alignment with sampled onset anchors; not a full note-by-note listening audit."
+  },
+  "firebird_technical_record": {
+    "size": 1274545352,
+    "sha256": "22057f7278723c3acf146d80c423c0f5a5da79948ca75a13a9c95416197c4ac4",
+    "decode_returncode": 0,
+    "audio_samples": [
+      {
+        "output_time": 7,
+        "source_time": 21,
+        "equal": false,
+        "bytes": 352800,
+        "raw32_equal": false,
+        "pcm24_equal": true,
+        "conversion_rule": "output_s32 == (source_s32 >> 8) << 8 (signed arithmetic shift)",
+        "duration_seconds": 1,
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "sample_frames": 44100,
+        "scalar_samples": 88200,
+        "max_s32_difference": 255,
+        "rms_s32_difference": 147.51763367441183,
+        "correlation": 0.9999999999879104
+      },
+      {
+        "output_time": 300,
+        "source_time": 314,
+        "equal": false,
+        "bytes": 352800,
+        "raw32_equal": false,
+        "pcm24_equal": true,
+        "conversion_rule": "output_s32 == (source_s32 >> 8) << 8 (signed arithmetic shift)",
+        "duration_seconds": 1,
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "sample_frames": 44100,
+        "scalar_samples": 88200,
+        "max_s32_difference": 255,
+        "rms_s32_difference": 147.4825486044269,
+        "correlation": 0.9999999999671375
+      },
+      {
+        "output_time": 900,
+        "source_time": 914,
+        "equal": false,
+        "bytes": 352800,
+        "raw32_equal": false,
+        "pcm24_equal": true,
+        "conversion_rule": "output_s32 == (source_s32 >> 8) << 8 (signed arithmetic shift)",
+        "duration_seconds": 1,
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "sample_frames": 44100,
+        "scalar_samples": 88200,
+        "max_s32_difference": 255,
+        "rms_s32_difference": 146.80646255863394,
+        "correlation": 0.9999999999792065
+      },
+      {
+        "output_time": 1310,
+        "source_time": 1324,
+        "equal": false,
+        "bytes": 352800,
+        "raw32_equal": false,
+        "pcm24_equal": true,
+        "conversion_rule": "output_s32 == (source_s32 >> 8) << 8 (signed arithmetic shift)",
+        "duration_seconds": 1,
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "sample_frames": 44100,
+        "scalar_samples": 88200,
+        "max_s32_difference": 255,
+        "rms_s32_difference": 140.19110600110858,
+        "correlation": 0.9999999999999662
+      }
+    ],
+    "audio_interpretation": {
+      "original_equal_field_preserved": true,
+      "offset_rule": "source_time = output_time + 14 s; source trim 20 s, output delay 6 s",
+      "scope": "Four one-second samples only, not full-stream PCM identity or musical synchronization",
+      "quantization": "ALAC stores 24 bits; raw32 comparison differs by discarded low 8 bits"
+    },
+    "visual_acceptance": {
+      "status": "not_passed",
+      "reviewer": "lead agent",
+      "defect": {
+        "frame": "frames/1310.jpg",
+        "description": "Measure labels 559–568 overlap on the final score page"
+      },
+      "action": "Recorded only; no re-encoding authorized in this follow-up"
+    }
+  },
+  "historical_record_paths": [
+    "预习视频/工程文件/布鲁克纳第八交响曲/主题识别重制版/交付元数据.json",
+    "预习视频/工程文件/火鸟-阿巴多柏林1994-codex/渲染/全片校核/technical-results.json"
+  ],
+  "normative_rule": "Use production-policy.md; historical defects and verification gaps are not accepted requirements."
+}
