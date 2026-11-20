@@ -7,6 +7,8 @@ description: "Create, analyze, or revise complete classical score-guide videos a
 
 Produce a video whose musical claims, score positions, recording times, and visual annotations can be traced to evidence. Use this skill as the basis for future study, production, and maintenance in this workflow.
 
+For installation and a reproducible first run, see the [README](README.md). The [worked exercises](examples/README.md) cover an original score-following video and an archived conducting excerpt.
+
 ## Canonical source and language
 
 Use the maintained checkout as SKILL_ROOT and resolve packaged resources relative to it. Point local discovery aliases at this checkout. Follow [AGENTS.md](AGENTS.md) when maintaining the skill.

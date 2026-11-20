@@ -1,12 +1,14 @@
 {
   "name": "score-video-guide",
   "display_name": "Score Video Guide",
-  "version": "2026-11-20.1",
+  "version": "2026-11-20.2",
   "canonical": ".",
   "language": "English; necessary paths, source names, output literals, and reference images may retain their original language.",
   "files": {
+    ".gitignore": "868ef2c6d9d07566bdffe0dc4ce5e7d7294e455bcc77897664c9717e68cca9f7",
     "AGENTS.md": "4c153a94ee47abe880f8db2e2e192ad08ba755c54e02934fdfb9a3f100ed65f7",
-    "SKILL.md": "6e2e19c10208a05b642877d09c8692a98fb035c0fd5795bfb092180f5590fd7a",
+    "README.md": "5851a6808864a94c189ce2ff61705b70858cb49cc60872f83d7ff525b2ddc495",
+    "SKILL.md": "ba7c7c3ae997569cd8229bf4ddf11a786d8e8828222055ec69cc69695001a298",
     "agents/openai.yaml": "a47f48855eb1a4f305a5f44a4246e94f56622a7d72960114095b8afaf6adad65",
     "assets/baseline-evidence.json": "94ad6e7e25afb589f76a62d732a22790cd2c635cf4360c332880c7a72363b1ea",
     "assets/beethoven-layout.json": "cfab463be584252dc57ef9075830253f3d1666f22a1ce8b0ebe12802fa60f921",
@@ -132,6 +134,9 @@
     "assets/reference-frames/final-4-209.jpg": "fd917ca6a6cd4a97f67f5ddcfd93f7d567e1d584c010aa617500f56517218d56",
     "assets/reference-frames/firebird-0300.jpg": "574c6b14854518fb3694a04150379123204cf8b82d5733547d2b2bcba0fdeae9",
     "assets/reference-frames/rachmaninoff-performance-group-user-20261112.png": "1ddd2cca076c5f9dc10eddaedc42172999c46a34eae79182e8c47940848d8d79",
+    "examples/README.md": "a8ecf0005c3725652706cb65d6f26d25b1dd003e3bfc5c9d7da96f0edcad9520",
+    "examples/rhythm-study-preview.png": "f06fd8c7f748ee8704151325378611b7131f22f6b541a6caa528b9c96ace3a0b",
+    "examples/rhythm_study.py": "16d3a1ec53bd09a5c19832f6dc2b75ec3a32344d64afd435e29c4b674e50a815",
     "references/alignment.md": "d6749c253eae1a7a431728f798bba3ee75c72227acda1af1df5fc8b7daadd4f8",
     "references/beethoven-series.md": "a1b61ef1aa4232bb9f774a50a003cc825ad714a218d443464e3f39a82b98c0b0",
     "references/conducting-gestures.md": "89e9ad502454f2c537762af4cb6af8b5f52c78efadc379ca5642815ec229509b",
@@ -199,7 +204,8 @@
     "beethoven_notation_typography": "Verified an encoded Op. 68/I preview with Minion Pro Italic, enlarged notation copy and the written beat strip.",
     "beethoven_op68_rome_2001_v2": "Five encoded gesture records retained with per-movement timing tables.",
     "chapter_form_labels": "Recreated all 25 movement blocks from six delivered Beethoven chapter sheets in reverse update order. Verified the opening row, numeric block order, preservation of other movements, the 10-row cap, 16-character limit, 6 s minimum gap, and rejection of bare letters.",
-    "git_package": "Unified the active package and the earlier checkout's Rachmaninoff cover reference. Checked packaged paths, structured data and Python syntax. Local path configuration remains external to the package."
+    "git_package": "Unified the active package and the earlier checkout's Rachmaninoff cover reference. Checked packaged paths, structured data and Python syntax. Local path configuration remains external to the package.",
+    "standalone_onboarding": "Ran the exercises from a clean exported checkout. The original rhythm study produced 804 H.264 frames and 24 scheduled attacks, passed the structural checks, and preserved the source PCM and intended intro silence sample for sample. Checked the form labels and the encoded preview. Rebuilt the 45-frame Beethoven IX conducting card and compared every decoded pixel against the packaged reference. Ran the archive and event checks."
   },
   "validation_scope": "Op. 60 is the active full-card standard. Decoded the screenshot comparison and the Berlin conductor sample; the latter follows five sampled lower turns. Verified the five active animated masters and preview-to-production equality at six phases of every stroke, archive dependencies and the two real work-level TXT files including numeric ordering and the ten-row cap. Validated links, gallery, JSON, Python and release hashes. Completed the full 4K Berlin finale with Chinese and sung German. The record includes 113 observed principal gestures in 33 camera intervals, the timed table, the master hashes and nine decoded card samples from the published encode. Validated compact delivery of the Berlin finale by matching all video and audio packet payloads and timing; assigned the compact container digest to the existing gesture record. Added latest-only movement retention and OneDrive filename checks. Verified the five illustrated Op. 60 gesture recipes, 19 selectable poses against the original loop frames, local gallery links, responsive layout and controls, and 45 reconstructed frames against the decoded Berlin finale card in bars 890–891. Verified the two approved full-size visual references, the Beethoven profile links and the SHA-256 of all three updated package files. Other package entries retain their prior recorded hashes. Approval covers static composition. Archived Op. 55/I Rome 2001: 842 conducted bars, preparation and release, and the decoded 3/4 Op. 60 v2 card. Refreshed the added and regenerated entries from their actual bytes.",
   "berlin_op125_i_iii_installed": true
