@@ -1,0 +1,61 @@
+{
+  "title": "布里顿《小提琴协奏曲》Op. 15 第三乐章",
+  "recording": "2013 BBC Proms 67, Janine Jansen, Paavo Järvi, Orchestre de Paris",
+  "performance_url": "https://www.bilibili.com/video/BV1Sx411r7fh/",
+  "timing_basis": "Hawkes score barline and pitch profiles first aligned to the score-video recording, then to the Proms audio. Internal bar pulses are estimates.",
+  "source_span": [
+    1104.0,
+    1938.1
+  ],
+  "five_four_grouping": "3+2 schematic, derived from the written meter.",
+  "version": "v2",
+  "movie_sha256": "b2b02d7a090e8bd3c851f01b445ba9992aa36198faf103633d44329f5f98e836",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9",
+    "in-3": "73a9ce454843bfb425b2c8eaac8e46bb83b54d6f83bb8c846e2d3e101cf46bb1",
+    "in-4": "be470790036509d2de78cc45956526ddde0b3636c9f0bb6c67acfa3218bc9d93"
+  },
+  "clock_sha256": "117b011445a81b33302138267dac56d6b2d09f56f273606cd16f9c763adde2a6",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "4/4",
+      "grouping": "1+1+1+1",
+      "pattern": "in-4",
+      "start": 6.0,
+      "duration": 6.066667,
+      "file": "4-4_in-4.mp4"
+    },
+    {
+      "meter": "3/4",
+      "grouping": "1+1+1",
+      "pattern": "in-3",
+      "start": 258.366666667,
+      "duration": 4.0,
+      "file": "3-4_in-3.mp4"
+    },
+    {
+      "meter": "3/2",
+      "grouping": "1+1+1",
+      "pattern": "in-3",
+      "start": 395.0,
+      "duration": 2.6,
+      "file": "3-2_in-3.mp4"
+    },
+    {
+      "meter": "5/4",
+      "grouping": "3+2",
+      "pattern": "in-2",
+      "start": 399.7,
+      "duration": 2.833333,
+      "file": "5-4_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

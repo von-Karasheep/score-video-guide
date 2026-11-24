@@ -50,7 +50,7 @@ For orientation, a stable quarter-note tempo of 120 gives 0.5 s per quarter and 
 
 Use linear interpolation between verified time/score anchors. Beat-only anchors support beat-level positioning; exact note-level claims require note/subdivision evidence. Holds can stop the cursor. New systems switch without a reverse scan.
 
-The playhead and the beat boxes share one beat clock. Draw the line through the printed columns from the first notehead to the next barline. Do not put a waypoint in the clef or key signature, or the line sprints across that empty header. Leaving the clef and key signature out of the crop is the wrong reading of this rule; the header stays visible. A bar with few attacks still sweeps instead of freezing on the last note. The final chord may hold. Time follows the beat; each column keeps its printed x. A later layout correction does not restart this alignment.
+In a requested event-anchored precision view, derive the playhead and beat boxes from the same performance time map. Follow printed event columns while keeping the clef and key signature visible. For default measure-linear playback, use the [measure-linear cursor rule](alignment.md#cursor-motion) and keep the independently established beat display on its musical clock. A layout revision can reuse the adopted alignment.
 
 ## 6. Review the complete route
 

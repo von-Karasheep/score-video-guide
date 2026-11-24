@@ -30,7 +30,11 @@ This correction does not authorize changes to the already generated Dvořák mov
 
 ## Timeline, opening, and references
 
-Draw background track, played track, permanent ticks, then labels. Color each section name with its theme color, using the same palette as the legend, so the first theme, second theme, introduction, development, and coda stay distinct. Show each section's name, measure range, and true start, not repeated end times. Under the performance window, above the timeline, show the current shot caption defined below. Size it with the other secondary labels, and keep it out of the timeline names. Scale by actual elapsed time rather than measure count. Add smaller theme-entry ticks when useful; abbreviate crowded labels and put full explanations in accompanying material.
+Label the primary track with the work's actual form. Put instrumentation and subdivisions under their parent sections. A single complete video uses one timeline and one cumulative fill across the requested span.
+
+Choose adjacent form-section colors that can be distinguished at a glance at playback size in both the pale track and the filled track. Use clearly separated hues or lightness values. Place a visible divider at each section's actual start tick. Draw the divider over the fill so it stays visible as playback passes it. Keep lettered subdivisions readable with their own marked boundaries. Theme and motif colors still identify recurring material. The approved Britten Op. 34 example uses deep blue `#214E85` for the Purcell theme, ochre `#925200` for Variations A–M, and plum `#722D69` for the fugue, with pale breaks at the two main transitions and individual ticks for A–M. Choose the palette for the score and layout in use.
+
+Left-align each main form heading above its starting tick. Put material names, printed measure ranges and true output start times below the band. Calculate widths from elapsed performance time. Abbreviate or stagger crowded material labels and put their full explanations in the time index. Reserve a separate row above the timeline for the performance caption defined below.
 
 The default clock is output time for player navigation. A music-time alternative must be declared; source-video navigation requires separate source times. Do not conceal the 6 s opening offset. Record whether the selected musical duration includes the decay.
 

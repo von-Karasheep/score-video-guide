@@ -37,10 +37,10 @@ The corrected final movie was inspected at output seconds 10, 21, 53, 90, 143, 1
 
 - The corrected local film passed complete decoding: 627 seconds, 18,810 frames, 4K/30 fps. Its 48 kHz/24-bit ALAC track passed PCM comparison with the corresponding original lossless samples and intended silence. A successful audio check does not certify score synchronization.
 - The practical measure-time map was retained. This revision did not perform a new complete listening audit or claim note/frame-perfect alignment. The user's accepted Bruckner/Firebird standard permits a few local timing discrepancies, but not systematic drift or missing analytical modules; see the production policy for the full portable baseline.
-- Both superseded finished movies were deleted as requested. Further cache cleanup and final reproducible-archive verification were paused: the Nutstore provider returned “operation canceled” and then a read timeout, with roughly 200 MB free at that observation. Local originals, the corrected film and the editable project were retained. Do not describe the archive as fully verified or all caches as removed.
+- Both superseded finished movies were deleted as requested. At the November 10 checkpoint, further cache cleanup and archive verification were pending after a provider timeout with roughly 200 MB free. Local originals, the corrected film and the editable project were retained. The next day's archive verification is recorded below.
 - Recovery requires accessible archived files and adequate local staging space, followed by input/readback validation and only then the remaining cleanup. The existing successful film does not need to be rendered again solely because archive access failed. The historical free-space reading and error are a dated status record, not a permanent diagnosis or a universal space requirement.
 
-Earlier standing requirements remain in force: work locally; follow the latest delivery destination; prefer same-event lossless audio and watermark-free picture using credible event information without mandatory frame-by-frame cross-source matching; route mainland downloads directly, never through Clash Verge; reuse suitable existing tools; and report an actual inability to meet the agreed standard promptly with a feasible remedy, then wait for direction. This maintenance update does not resume the paused archive operation.
+For future work, use the [production policy](production-policy.md) for staging, source verification, direct routing, delivery and blocker handling.
 
 ## Later completion, 2026-11-11
 

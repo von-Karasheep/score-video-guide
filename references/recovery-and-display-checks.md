@@ -6,7 +6,7 @@ See [Reuse-first tool selection](tool-selection.md) for stage-specific software 
 
 Inspect the project and installed skills first. For an unavailable capability or a failed existing method, search GitHub for skills/tools and Google or available web search for plugins and official documentation before building replacements. Save query, URL/revision, capability, local test outcome, and reason for selection/rejection. A wrapper around the same engine is not an independent method. Do not repeatedly rebuild an OMR engine, alignment engine, or encoder to avoid looking for a maintained implementation.
 
-Follow the immediate blocker protocol in [production-policy.md](production-policy.md). A bounded necessary pilot may establish feasibility; once a gap prevents the required practical result, stop speculative tests, report evidence and preserved work, say whether/how it can be solved, and wait for the user's next instruction. Do not wait 30 minutes, silently switch methods or send retries to another agent. An obvious mechanical correction or a validated progressing export is normal work; uncertain recovery is a blocker. Extra precision is not required. The no-MIDI comparison routes below are optional routes for a justified need, not a mandatory comparison campaign.
+Follow the [blocker rule](production-policy.md#reuse-tools-and-stop-promptly-on-a-real-blocker) for a failed feasibility pilot or uncertain recovery. The no-MIDI comparison routes below are optional diagnostics for a specific need.
 
 ## When no matching MIDI exists
 
@@ -23,7 +23,7 @@ Barber case evidence: the project under `预习视频/工程文件/巴伯第一�
 
 | Failure | Required repair | Check |
 |---|---|---|
-| Four stages accidentally share green | Store a stable color per structural section; apply it to its name, tick and elapsed fill. Keep motif identity colors separate. | Inspect all sections before and after passage; ticks remain visible. |
+| Nearby hues make adjacent form sections look like one span | Follow the [form timeline rules](layout-and-render.md#timeline-opening-and-references) and keep visible dividers over the fill. | Inspect the pale and filled tracks at playback size before and after each transition. |
 | Line stalls during timpani/sustained passage | In measure-linear mode discard internal event holds and collapsed x knots; sweep the bar using its real start/end. Initial silence still waits. | Three equally spaced frames inside the same bar have equal x increments within raster rounding; no motionless sounding bar. |
 | Small jump at each barline | End one interval and begin the next at the same boundary/time on the same system. | Compare consecutive encoded frames around boundaries; allow clean new-system cuts. |
 | Missing Chinese instruments | Map each actual staff row per page/system, including omitted instruments, divisi, harp's two staves and percussion changes. | Overlay y markers on original left-margin crops; review every page's order, then check final text. |
@@ -46,4 +46,4 @@ Before delivery, check the encoded video at each scheduled callout against the r
 
 ## Export and completion
 
-The lead owns musical analysis, map interpretation, notation meanings and layout review. Once frozen, delegate mechanical full composition, full decode, PCM comparison and delivery hash checks to GPT-6.1 Sol when available/authorized; follow export-delegation.md. Technical success never certifies uncertain musical timing. Keep user-approved measure-progress semantics distinct from event-level claims. Report unresolved accuracy directly outside the video. Deliver the movie to Desktop and archive engineering/other deliverables to Nutstore using production-policy.md; remove only identified local duplicates/caches after verified transfer.
+The lead owns musical analysis, map interpretation, notation meanings and layout review. When export delegation is authorized, follow [export delegation](export-delegation.md) for frozen production and technical checks. Report musical timing evidence and technical results separately. Use the [direct OneDrive delivery rule](production-policy.md#current-future-delivery-rule-onedrive-2026-11-11) and its verification and cleanup sequence.

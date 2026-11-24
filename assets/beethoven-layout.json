@@ -30,6 +30,8 @@
   "timeline": {
     "x_range": [30, 1890],
     "form_label_y": 978,
+    "form_label_alignment": "section_start",
+    "form_label_inset_logical": 3,
     "bracket_y": 990,
     "progress_top_y": 998,
     "progress_height": 9,

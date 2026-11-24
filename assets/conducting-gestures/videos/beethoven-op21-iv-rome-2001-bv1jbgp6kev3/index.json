@@ -1,0 +1,43 @@
+{
+  "title": "贝多芬《第一交响曲》第四乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, 9 February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1jbgP6KEV3/",
+  "source_seconds": [
+    1276.6,
+    1606.7
+  ],
+  "timing_basis": "Reference conducting pattern fitted to the recorded music.",
+  "version": "v2",
+  "movie_sha256": "97acf6f5c3d226402a5509ad3e408aa4e1ef5237cf5f5bad6b9df5c7f7f20291",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-1": "f6726d38d39f822f072fcf9e48cf6b403cab94b0447037f3cc05f81570d02af7",
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "f0b27a0e44c4a0da8341a3d49f73e64dae42c28404ff81b4aa16c58cf4f12c22",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "2/4",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 12.090288,
+      "duration": 4.0,
+      "file": "2-4_in-2.mp4"
+    },
+    {
+      "meter": "2/4",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 30.484286,
+      "duration": 4.0,
+      "file": "2-4_in-1.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

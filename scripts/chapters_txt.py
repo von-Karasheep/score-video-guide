@@ -11,11 +11,22 @@ MIN_GAP_SECONDS = 6
 NUMBER="一 二 三 四 五 六 七 八 九 十 十一 十二 十三 十四 十五 十六 十七 十八 十九 二十".split()
 
 
-def update_work(path, composer, title, conductor, orchestra, year, movement, lines):
+def chapter_header(composer, title, conductor, orchestra, *, soloist=None):
+    work = title.strip().removeprefix("《").removesuffix("》")
+    ensemble = orchestra.strip()
+    if ensemble in {"柏林爱乐", "柏林爱乐乐团", "Berliner Philharmoniker", "Berlin Philharmonic"}:
+        ensemble = "BPO"
+    artist = conductor.replace("·", "").strip()
+    if soloist:
+        artist = f'{soloist.replace("·", "").strip()}x{artist}'
+    return f"{PREFIX}{composer.strip()}{work}-{artist}+{ensemble}"
+
+
+def update_work(path, composer, title, conductor, orchestra, year, movement, lines, *, soloist=None):
     path=Path(path)
     if not (1<=movement<=len(NUMBER) and 1<=len(lines)<=10 and lines[0]==FIRST):
         raise ValueError("Invalid movement, number of rows or opening marker")
-    header=f"{PREFIX}{composer}《{title}》-{conductor}+{orchestra}@{year}"
+    header = chapter_header(composer, title, conductor, orchestra, soloist=soloist)
     values=[]
     for line in lines:
         m=re.fullmatch(r"(\d{2,}):([0-5]\d) ([^\s].*)",line)
@@ -31,7 +42,10 @@ def update_work(path, composer, title, conductor, orchestra, year, movement, lin
     blocks={}
     if path.exists():
         existing=path.read_text(encoding="utf-8").splitlines()
-        if not existing or existing[0]!=header:raise ValueError("Work or recording does not match the existing sheet")
+        legacy = f"{PREFIX}{composer}《{title}》-{conductor}+{orchestra}"
+        if not existing or existing[0] not in (header, legacy, f"{legacy}@{year}"):
+            raise ValueError("Work or recording does not match the existing sheet")
+        header = existing[0]
         current=None
         for row in existing[1:]:
             if not row:continue

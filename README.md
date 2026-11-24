@@ -35,7 +35,7 @@ mkdir -p ~/.codex/skills
 ln -s "$PWD" ~/.codex/skills/score-video-guide
 ```
 
-Start with a recording or local media file, the score edition or a way to identify it, the movement, and the output you want. For example, ask for a single representative passage first and give the local score and media paths. Include an explicit decision on the preview or full-movement export.
+Start with a recording or local media file, the score edition or a way to identify it, and the requested work or movement. A full-production request proceeds to final delivery after verification. For preview-first work, specify a representative passage.
 
 | Stage | Save | Read |
 | --- | --- | --- |

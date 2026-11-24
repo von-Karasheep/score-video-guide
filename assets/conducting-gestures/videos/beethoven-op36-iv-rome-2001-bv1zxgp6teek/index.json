@@ -1,0 +1,34 @@
+{
+  "title": "贝多芬《第二交响曲》第四乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, 12 February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1ZxgP6TEEk/",
+  "source_seconds": [
+    1662.2333333333333,
+    2017.5333333333333
+  ],
+  "timing_basis": "Reference conducting pattern fitted to the recorded music.",
+  "version": "v2",
+  "movie_sha256": "4be3f4eafd2d051985abf02dc0c6f29440cee9504cd0de08bae28fc2807261ce",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9"
+  },
+  "clock_sha256": "48dc8614abeedf0cb00a9df77902e80c956d0b63004025697f39fe42059947dd",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "2/2",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 7.556432,
+      "duration": 4.0,
+      "file": "2-2_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

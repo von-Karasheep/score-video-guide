@@ -1,0 +1,34 @@
+{
+  "title": "贝多芬《第八交响曲》第一乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, 11 February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1eQgA6hEed/",
+  "source_seconds": [
+    0,
+    563.0
+  ],
+  "timing_basis": "Output clock from the selected audio and printed route. Fitted whole-bar gestures and an explicit coda fermata.",
+  "version": "v2",
+  "movie_sha256": "e7e306f42e067aa663fda55ebb5d837482a1fc10401b572a8daa537fab3f4cbd",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-1": "f6726d38d39f822f072fcf9e48cf6b403cab94b0447037f3cc05f81570d02af7"
+  },
+  "clock_sha256": "1b8f878949bd9b9a8e8183e902b302e2b24e684768ac656458f462c2e82a1147",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "3/4",
+      "grouping": "整小节",
+      "pattern": "in-1",
+      "start": 9.748,
+      "duration": 4.0,
+      "file": "3-4_in-1.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}

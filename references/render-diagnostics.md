@@ -15,3 +15,9 @@ These diagnostic options do not authorize repeated trials: apply the immediate r
 7. Build one continuous audio track and mux it with the video to avoid accumulating per-chunk audio delay. Verify full decode and PCM before delivery.
 
 Check the installed FFmpeg's filter help for overlay, tpad, and apad. The [FFmpeg filter documentation](https://ffmpeg.org/ffmpeg-filters.html) is a reference; parameter availability is version-specific. These steps are a diagnostic procedure, not a claim that a particular root cause has been established.
+
+## Storage exhaustion and recovery
+
+Budget for the full export, temporary mux/copy, provider cache and swap. Record available bytes on the actual volume and check encoder progress logs. If the compositor reports a broken pipe, inspect the encoder and command-wrapper stderr before choosing a remedy. The Rome Op. 21/III interruption logged `No space left on device` before the broken pipe. Clearing the failed partial export and rebuildable test clips restored space for the same renderer and timing map.
+
+With tight headroom, reduce concurrency and finish, verify and sync each completed export promptly. Keep the verified originals, final timing and geometry, and the only usable export. After the root cause is established and headroom is restored, retry the affected staged output with the existing inputs and repeat full decode and PCM verification. Use the [blocker rule](production-policy.md#reuse-tools-and-stop-promptly-on-a-real-blocker) when the cause or recovery remains uncertain.

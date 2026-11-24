@@ -1,0 +1,43 @@
+{
+  "title": "贝多芬《第一交响曲》第一乐章",
+  "recording": "Claudio Abbado / Berliner Philharmoniker, Rome, 9 February 2001",
+  "source_url": "https://www.bilibili.com/video/BV1jbgP6KEV3/",
+  "source_seconds": [
+    3.7,
+    541.4
+  ],
+  "timing_basis": "Reference conducting pattern fitted to the musical clock and sampled performance shots.",
+  "version": "v2",
+  "movie_sha256": "a88cfb9bb8411424f11bd5744cb2b9aef748a11ed79d75f0078f0179ee608d63",
+  "renderer_sha256": "1d777c1c6960b4ccd15b02bfeedb67f9dcfadf59851a5d1e42e0ba2f85c2696f",
+  "patterns": {
+    "in-2": "dbb6558b7e0d5f9482194cccf61a63e8429662ae610b467bea3bc1ea0b213ab9",
+    "in-4": "be470790036509d2de78cc45956526ddde0b3636c9f0bb6c67acfa3218bc9d93"
+  },
+  "clock_sha256": "e056c6dc272cbe82f47e43456d99a89eee93d3e1ba476dcad206fa17c2bb134a",
+  "widget_crop": [
+    1636,
+    252,
+    788,
+    232
+  ],
+  "examples": [
+    {
+      "meter": "4/4",
+      "grouping": "四拍",
+      "pattern": "in-4",
+      "start": 7.334,
+      "duration": 6.097233,
+      "file": "4-4_in-4.mp4"
+    },
+    {
+      "meter": "2/2",
+      "grouping": "两拍",
+      "pattern": "in-2",
+      "start": 82.902519,
+      "duration": 4.0,
+      "file": "2-2_in-2.mp4"
+    }
+  ],
+  "drawing_sha256": "c183d56c617b03333212bdf33d2b5b0f0e352e76a281205b2f3a01a1ff846dbb"
+}
